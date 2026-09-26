@@ -8,6 +8,8 @@ from sqlalchemy import pool
 from alembic import context
 
 from nexora.database.connection import Base
+from nexora.database.models import Business
+
 
 
 # Load environment variables from .env
@@ -78,4 +80,3 @@ if context.is_offline_mode():
     run_migrations_offline()
 else:
     run_migrations_online()
-    
