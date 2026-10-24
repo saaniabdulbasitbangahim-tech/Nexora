@@ -8,7 +8,7 @@ from sqlalchemy import pool
 from alembic import context
 
 from nexora.database.connection import Base
-from nexora.database.models import Business
+from nexora.database.models import Account, Business, Transaction
 
 
 
